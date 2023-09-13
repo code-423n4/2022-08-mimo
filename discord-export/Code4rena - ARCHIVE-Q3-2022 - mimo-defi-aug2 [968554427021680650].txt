@@ -1,0 +1,372 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2022 / mimo-defi-aug2
+==============================================================
+
+[04/26/2022 4:54 PM] kartoonjoy
+👋 Hello and welcome to the contest channel for the $50K USDC **Mimo Defi** contest!
+
+📆 Contest opens April 28, 2022 at 0:00 UTC and runs through May 2, 2022 at 23:59 UTC (5 days).
+
+Please give a warm welcome to the Mimo Defi team, particularly @m19, @RayXpub, @RnkSngh and @frankzhu94, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-04-mimo-defi-contest
+
+{Embed}
+https://code4rena.com/contests/2022-04-mimo-defi-contest
+Code4rena Mimo DeFi contest
+$50,000 USDC
+28 April 2022—2 May 2022
+Code4rena - ARCHIVE-Q3-2022 - mimo-defi-aug2 [968554427021680650].txt_Files/15d30796-5e7b-47a1-87f5-e8bafc15ef6b-14F94
+
+
+[04/28/2022 6:11 PM] rnksngh
+Hi everyone! Looking forward to see what everyone finds! Happy bug hunting 🙂
+
+{Reactions}
+❤️ (13) 
+
+[04/29/2022 10:59 PM] hake_stake
+the ENTER APP hover functionality in your website is the coolest 💩  I've ever seen. Just had to say it
+
+{Reactions}
+chefskiss (4) 
+
+[05/02/2022 6:07 PM] pedroais
+Hi ! any dev available to dm ?
+
+
+[05/02/2022 11:35 PM] rnksngh
+Haha just seeing this but glad you dm'ed me 🙂 If anyone has any last minute questions I'm online for the last ~20 min
+
+
+[05/03/2022 12:02 AM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The Mimo Defi contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the Mimo Defi team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+
+[06/18/2022 8:21 AM] un_for_given
+Hi, any news on results?
+
+
+[06/18/2022 8:21 AM] illilli000
+looks like they're coming soon: https://github.com/code-423n4/code423n4.com/pull/2253/files#diff-74910905ffc9d3c8f8510410dbaa9089f77209d36db0cf1368c1cb7e32e92473
+
+
+[06/18/2022 8:27 AM] un_for_given
+Cool, Thank you
+
+{Reactions}
+👍 (2) 
+
+[07/28/2022 10:11 PM] kartoonjoy
+👋 Hello and welcome to the contest channel for the $50K USDC **Mimo August 2022** contest!
+
+📆 Contest opens 08/02/2022 8:00 PM (20:00 UTC) and runs through 08/07/2022 8:00 PM (20:00 UTC) (5 days).
+
+Please give a warm welcome to the Mimo DeFi team, particularly @m19,  @RayXpub and @RnkSngh who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-08-mimo-august-2022-contest
+
+{Embed}
+https://code4rena.com/contests/2022-08-mimo-august-2022-contest
+Code4rena Mimo August 2022 contest
+$50,000 USDC
+2 August 2022—7 August 2022
+Code4rena - ARCHIVE-Q3-2022 - mimo-defi-aug2 [968554427021680650].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+👍 
+
+[07/29/2022 7:35 AM] Franfran#5067
+Rigor ? 🤔
+
+{Reactions}
+thankyou (3) 
+
+[08/03/2022 1:26 PM] 0xdjango
+Hey Mimo team, can you point me to an actual implementation of `LendingPool`? It's a bit difficult to verify ideas with the empty mock lending pool functions.
+
+
+[08/03/2022 9:10 PM] JohnSmith#1623
+excuse me, why do we need this?
+```
+  /// @notice The release version of PRBProxy.
+  /// @dev This is stored in the factory rather than the proxy to save gas for end users.
+  function VERSION() external view returns (uint256);
+```
+
+
+[08/03/2022 11:26 PM] JohnSmith#1623
+Do you think it is something else than https://github.com/aave/aave-v3-core/blob/master/contracts/protocol/pool/Pool.sol ?
+
+{Reactions}
+thankyou 
+
+[08/04/2022 12:53 PM] m123#3165
+Hi @Django | Saloon Finance there are integration tests running against Aave V3 in a network fork. See https://github.com/code-423n4/2022-08-mimo/tree/main/test/02_integration
+
+{Reactions}
+thankyou (2) 
+
+[08/04/2022 12:55 PM] m123#3165
+So yes it should be Pool.sol that @JohnSmith linked
+
+
+[08/04/2022 12:57 PM] m123#3165
+Something that was inherited from the prb-proxy we forked and is just defaulted to 1. Could come in handy if we deploy new contracts that are different from the current ones
+
+{Reactions}
+C4Keycap (2) 
+
+[08/05/2022 10:46 AM] rnksngh
+Hi All, FYI @m19  will be off this week/weekend so please direct any DMs towards me or @RayXpub !  And of course, for public questions, please continue using this channel! 
+
+Happy 🪲 hunting!
+
+
+[08/05/2022 10:48 AM] tofunmi
+Happy hunting looks kinda weird lmao 😂 😂 😂
+
+{Reactions}
+😅 (3) 
+
+[08/05/2022 10:49 AM] rnksngh
+Haha I had the bug emoji to mean "happy <bug> hunting" but maybe that wasn't the clearest 😂
+
+
+[08/05/2022 11:37 AM] 100proof
+I got it.  I liked it.
+
+
+[08/06/2022 12:18 AM] jagstock
+I see that gas used is not constant for successive runs..gasReporter log
+
+
+[08/06/2022 9:59 PM] kaden3328
+any testnet deployments we can reference?
+
+
+[08/06/2022 10:29 PM] .bfs
+was able to get slither working by converting all the custom revert classes to revert()
+
+{Reactions}
+🥳 (2) hi5 
+
+[08/07/2022 7:59 AM] rayxpub
+Hi @Kaden , no we haven't deployed on testnet yet
+
+
+[08/07/2022 8:59 PM] kartoonjoy
+🚨 **CONTEST ALERT**
+
+@🐺wardens The Mimo contest is now closed! Huge thanks to everyone who participated mag, whether you submitted a finding or not.
+
+What's next: the Mimo team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding, judging judge and reporting scroll. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+👍 (5) 
+
+[08/08/2022 11:34 AM] pedr02b2
+I didnt put in a report for this one but i did learn a little so thanks for the oppertunity to work on your project it was good experience ...
+
+{Reactions}
+hi5 (9) 
+
+[08/11/2022 1:30 PM] peritoflores
+I am not so skilled in javascript.   How do I run specific test?
+
+
+[08/11/2022 1:30 PM] peritoflores
+with yarn
+
+
+[08/11/2022 1:31 PM] illilli000
+this contest is closed, but usually it's "yarn test <rel-path-to-test-file>"
+
+
+[08/11/2022 1:36 PM] peritoflores
+thanks @IllIllI .  I know it is closed I am concerned with an issue marked as "disputed".   I believe that there is an error in one of the test
+
+{Reactions}
+👍 
+
+[08/31/2022 5:33 PM] itsmetechjay
+🤑 🎉 Awards for **Mimo Defi**:
+
+$8,444.30 USDC » @Vlad B | zkSync 
+$5,035.45 USDC » @Roman 
+$4,672.77 USDC » @ayeslick 
+$3,550.66 USDC » @Bnke 
+$3,489.26 USDC » @bin2chen 
+$3,307.69 USDC » @0x52 
+$3,209.75 USDC » @horsefacts 
+$2,522.43 USDC » @Django | Saloon Finance 
+$2,436.29 USDC » @0xNazgul 
+$1,222.28 USDC » @cccz 
+$997.78 USDC » @arcoun 
+$997.78 USDC » @byndooa 
+$997.78 USDC » @thebensams 
+$889.68 USDC » @IllIllI 
+$840.42 USDC » @peritoflores 
+$778.19 USDC » @Dravee 
+$683.42 USDC » @8olidity 
+$615.91 USDC » @giovannidisiena 
+$310.26 USDC » mics
+$275.36 USDC » @JohnSmith 
+$243.95 USDC » @thinklab 
+$224.50 USDC » @teddav 
+$174.07 USDC » @rbserver 
+$159.90 USDC » @JC
+$144.58 USDC » @ajtra 
+$134.47 USDC » @Noam Yakov 
+$131.26 USDC » @Rolezn 
+$127.68 USDC » @TomJ 
+$127.44 USDC » @Deivitto 
+$118.82 USDC » @fatherOfBlocks 
+$118.82 USDC » @gogo 
+$118.82 USDC » @0x1f8b 
+$115.30 USDC » @bobirichman7542 
+$112.75 USDC » @ReyAdmirado 
+$108.93 USDC » @sikorico 
+$108.93 USDC » @durianSausage 
+$108.93 USDC » @simon135 
+$108.69 USDC » @CodingNameKiki 
+$107.00 USDC » @Waze 
+$107.00 USDC » @c3phas 
+$107.00 USDC » @Funen 
+$107.00 USDC » @brgltd 
+$106.78 USDC » @ladboy233小伙子 
+$106.78 USDC » @0xc0ffEE 
+$106.78 USDC » @Chom 
+$106.54 USDC » @samruna 
+$88.17 USDC » @hyh 
+$74.55 USDC » @ak1 
+$69.66 USDC » @delfin454000 
+$69.66 USDC » @Sm4rty 
+$67.73 USDC » @bulej93 
+$67.73 USDC » @Natzuu 
+$67.73 USDC » @Rohan 
+$67.51 USDC » @TomFrenchBlockchain 
+$67.51 USDC » @Tofunmi 
+$67.51 USDC » @bvttplvg 
+$67.51 USDC » @EricTee 
+$67.51 USDC » @__141345__ 
+$67.51 USDC » @SooYa 
+$67.51 USDC » @wagmi 
+$67.51 USDC » @aysha 
+$49.17 USDC » @jag 
+$49.17 USDC » @joestakey 
+$40.74 USDC » @0xSmartContract 
+$39.27 USDC » @Ignacio 
+$39.03 USDC » @bearonbike 
+$39.03 USDC » @code-cipher 
+$39.03 USDC » @Fitraldys 
+$39.03 USDC » @0X040 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 10 total, 4 unique
+Med risk findings: 18 total, 8 unique
+Gas optimization reports: 40
+QA reports: 50
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+{Reactions}
+🔥 (11) 
+
+[08/31/2022 5:42 PM] codingnamekiki
+My first contest award and l can buy a decent amount of pizza slices. NO WAY
+
+
+[08/31/2022 5:42 PM] codingnamekiki
+https://tenor.com/view/catthankyou-cat-gif-24824893
+
+{Embed}
+https://tenor.com/view/catthankyou-cat-gif-24824893
+Code4rena - ARCHIVE-Q3-2022 - mimo-defi-aug2 [968554427021680650].txt_Files/catthankyou-cat-174DF.png
+
+
+[08/31/2022 5:43 PM] JohnSmith#1623
+got score 80, backstage role so close, yet so far
+
+
+[08/31/2022 5:58 PM] .bfs
+will the full report be released?
+
+
+[08/31/2022 6:02 PM] Ignacio#9604
+maybe next month
+
+
+[08/31/2022 6:03 PM] .bfs
+thanks
+
+
+[08/31/2022 6:04 PM] JohnSmith#1623
+good thing next month is tomorrow 🙂
+
+
+[08/31/2022 6:05 PM] tofunmi
+That would be a lot of pizzas 😂
+
+{Reactions}
+chefskiss 
+
+[09/01/2022 8:25 AM] bnke0x0
+👀
+
+
+[09/01/2022 8:26 AM] bnke0x0
+wt*, I'm The Top 4 Awards 🔥
+
+{Reactions}
+🎉 (11) 👏 (4) 🔥 (5) 
+
+[09/01/2022 8:50 AM] m123#3165
+Thanks for participating everyone!
+
+
+[09/13/2022 8:42 AM] JohnSmith#1623
+https://tenor.com/view/the-dude-abide-the-big-lebowski-stir-gif-3523187
+
+{Embed}
+https://tenor.com/view/the-dude-abide-the-big-lebowski-stir-gif-3523187
+Stir
+Code4rena - ARCHIVE-Q3-2022 - mimo-defi-aug2 [968554427021680650].txt_Files/the-dude-abide-54C80.png
+
+
+[09/14/2022 11:21 AM] JohnSmith#1623
+Update please, 2 weeks  have passed.
+
+
+[09/16/2022 1:22 PM] natzuu33
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - mimo-defi-aug2 [968554427021680650].txt_Files/waiting-C37E9.gif
+
+
+[09/17/2022 7:13 AM] JohnSmith#1623
+https://tenor.com/view/hellmo-pizza-creed-hellmo-pizza-hellmo-creed-gif-26018398
+
+{Embed}
+https://tenor.com/view/hellmo-pizza-creed-hellmo-pizza-hellmo-creed-gif-26018398
+Code4rena - ARCHIVE-Q3-2022 - mimo-defi-aug2 [968554427021680650].txt_Files/hellmo-pizza-855C2.png
+
+
+[09/17/2022 7:14 AM] codingnamekiki
+Pepperoni :chefskiss:
+
+
+==============================================================
+Exported 48 message(s)
+==============================================================
